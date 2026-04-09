@@ -1,0 +1,230 @@
+* {
+    margin: 0;
+}
+
+body {
+    font-weight: bold;
+    font-family: poppins;
+}
+
+/* header */
+.header_logo {
+    background-color: #22385B;
+    display: flex;
+
+}
+
+.sponsor{
+    display: flex;
+    margin: 20px;
+    justify-content: space-evenly;
+    width: 50%;
+}
+
+.logo_sibir {
+    padding-left: 20px;
+}
+
+.sostav {
+    color: white;
+    font-size: 2em;
+    margin: 20px;
+    margin-left: 30%;
+    padding-right: 10px;
+}
+
+.form {
+    color: white;
+    font-size: 2em;
+    margin: 20px;
+}
+/* header */
+
+
+/* homepage */
+.home_page {
+    background-color: #005697; 
+    width: 100%;
+    height: 50em;
+}
+
+.homepage {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 90%;
+    align-items: center;
+    
+}
+
+.text_title {
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contacts1 {
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.title{
+    font-size: 4em;
+    /* padding-left: 25%;
+    padding-right: 25%; */
+    text-align: center
+}
+
+.info_title {
+    font-size: 200%;
+    margin: 5px;
+}
+
+.s1 {
+    width: 30%;
+    height: 70%;
+}
+
+.s2 {
+    width: 30%;
+    height: 90%;
+}
+/* homepage */
+
+
+
+/* info */
+.info {
+    background-color: #559DD5; 
+}
+
+.title2 {
+    font-size: 50px;
+    margin-left: 47%;
+    padding-top: 20px;
+}
+
+.info_place {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.info_text {
+    max-width: 1100px;
+    font-size: 50px;
+}
+
+.info_photo {
+    width: 700px;
+    height: 850px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.s3 {
+    width: 100%;
+    height: 400px;
+}
+
+.s4 {
+    width: 100%;
+    height: 400px;
+}
+
+/* info */
+
+
+/* photo */
+.photo{
+    background-color: #005697;
+}
+
+.title3 {
+    font-size: 50px;
+    margin-left: 47%;
+    padding-top: 20px;
+}
+
+.all_photos {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 850px;
+}
+
+.photos1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.photos2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.photos3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.s9 {
+    width: 700px;
+    height: 420px;
+}
+
+.s10 {
+    width: 600px;
+    height: 388px;
+}
+/* photo */
+
+
+/* footer */
+footer {
+    background-color: #22385B;
+
+}
+
+.footer {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.footer_text {
+    max-width: 800px;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer_contacts {
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer_rights {
+    padding: 20px;
+    color: #AAAAAA;
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+/* footer */
