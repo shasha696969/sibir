@@ -270,6 +270,14 @@ footer {
         align-items: center;
     }
     
+    .sostav {
+        display: none;
+    }
+
+    .form {
+        display: none;
+    }
+
 
 
 
