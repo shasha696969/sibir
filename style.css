@@ -11,7 +11,6 @@ body {
 .header_logo {
     background-color: #22385B;
     display: flex;
-
 }
 
 .sponsor{
@@ -19,6 +18,7 @@ body {
     margin: 20px;
     justify-content: space-evenly;
     width: 50%;
+    padding-left: 20px;
 }
 
 .logo_sibir {
@@ -116,26 +116,26 @@ body {
 }
 
 .info_text {
-    max-width: 1100px;
-    font-size: 50px;
+    max-width: 900px;
+    font-size: 40px;
 }
 
 .info_photo {
-    width: 700px;
-    height: 850px;
+    width: 650px;
+    height: 800px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .s3 {
     width: 100%;
-    height: 400px;
+    height: 380px;
 }
 
 .s4 {
     width: 100%;
-    height: 400px;
+    height: 380px;
 }
 
 /* info */
@@ -156,7 +156,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    height: 850px;
+    height: 1200px;
 }
 
 .photos1 {
@@ -177,14 +177,34 @@ body {
     justify-content: space-evenly;
 }
 
+.s5 {
+    width: 600px;
+    height: 350px;
+}
+
+.s6 {
+    width: 600px;
+    height: 350px;
+}
+
+.s7 {
+    width: 600px;
+    height: 350px;
+}
+
+.s8 {
+    width: 600px;
+    height: 350px;
+}
+
 .s9 {
-    width: 700px;
-    height: 420px;
+    width: 600px;
+    height: 350px;
 }
 
 .s10 {
     width: 600px;
-    height: 388px;
+    height: 350px;
 }
 /* photo */
 
@@ -203,7 +223,7 @@ footer {
 }
 
 .footer_text {
-    max-width: 800px;
+    max-width: 650px;
     font-size: 30px;
     color: white;
     text-align: center;
@@ -213,10 +233,10 @@ footer {
 }
 
 .footer_contacts {
-    width: 500px;
+    width: 650px;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .footer_rights {
@@ -228,3 +248,216 @@ footer {
     align-items: flex-end;
 }
 /* footer */
+
+
+@media (max-width: 425px) {
+    .logo_sibir {
+        width: 55px;
+        height: 40px;
+        padding-left: 10px;
+    }
+    
+    .sponsor img {
+        width: 150px;
+        height: 20px;
+    }
+
+    .sponsor {
+        align-items: center;
+    }
+
+    .header_logo {
+        align-items: center;
+    }
+    
+
+
+
+
+    .homepage {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .text_title {
+        max-width: 300px;
+    }
+
+    .title{
+        font-size: 1.7em;
+        text-align: center
+    }
+
+    .block_info_title {
+        margin-top: 10px;
+    }
+
+    .info_title {
+        font-size: 90%;
+        margin: 5px;
+    }
+
+    .s1 {
+        width: 250px;
+        height: 150px;
+    }
+
+    .s2 {
+        width: 250px;
+        height: 200px;
+    }
+
+
+
+
+
+     .title2 {
+        font-size: 30px;
+        margin-left: 41%;
+        padding-top: 10px;
+    }
+
+    .info_place {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .info_text {
+        max-width: 300px;
+        font-size: 20px;
+    }
+
+    .info_photo {
+        width: 350px;
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .s3 {
+        width: 100%;
+        height: 200px;
+    }
+
+    .s4 {
+        width: 100%;
+        height: 200px;
+    }
+
+
+
+
+
+    .title3 {
+        font-size: 30px;
+        margin-left: 41%;
+        padding-top: 10px;
+    }
+
+    .all_photos {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        height: 400px;
+    }
+
+    .photos1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .photos2 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .photos3 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .s5 {
+        width: 150px;
+        height: 100px;
+    }
+
+    .s6 {
+        width: 150px;
+        height: 100px;
+    }
+
+    .s7 {
+        width: 150px;
+        height: 100px;
+    }
+
+    .s8 {
+        width: 150px;
+        height: 100px;
+    }
+    
+    .s9 {
+        width: 150px;
+        height: 100px;
+    }
+
+    .s10 {
+        width: 150px;
+        height: 100px;
+    }
+
+
+
+
+
+    .footer {
+        height: 50px;
+        padding-top: 10px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .footer_text {
+        max-width: 150px;
+        height: 26px;
+        font-size: 9px;
+        color: white;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer_contacts {
+        width: 150px;
+        height: 30px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .footer_rights {
+        font-size: 10px;
+        padding: 10px;
+        color: #AAAAAA;
+        flex-direction: row;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+    }
+
+    .footer_contacts img {
+        width: 30px;
+        height: 30px;
+    }
+}
