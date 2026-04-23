@@ -1,10 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
 * {
     margin: 0;
 }
 
 body {
     font-weight: bold;
-    font-family: poppins;
+    font-family: 'Montserrat', sans-serif;
 }
 
 /* header */
@@ -14,10 +17,10 @@ body {
 }
 
 .sponsor{
-    display: flex;
     margin: 20px;
+    width: 1170px;
+    display: flex;
     justify-content: space-evenly;
-    width: 1100px;
 }
 
 .sponsor img {
@@ -31,16 +34,41 @@ body {
 .sostav {
     color: white;
     font-size: 2em;
-    margin: 20px;
-    margin-left: 200px;
-    padding-right: 10px;
 }
 
 .form {
     color: white;
     font-size: 2em;
-    margin: 20px;
 }
+
+.sostav_form {
+    margin-left: 2%;
+    width: 20%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.menu_small_icon {
+    display: none;
+}
+
+.menu-small {
+    display: none;
+    height: 2em;
+}
+
+.menu_small_item {
+    display: none;
+}
+
+.stick {
+    width: 80%;
+    height: 5px;
+    background: black;
+}
+
 /* header */
 
 
@@ -77,13 +105,11 @@ body {
 
 .title{
     font-size: 4em;
-    /* padding-left: 25%;
-    padding-right: 25%; */
     text-align: center
 }
 
 .info_title {
-    font-size: 200%;
+    font-size: 190%;
     margin: 5px;
 }
 
@@ -257,7 +283,7 @@ footer {
     .logo_sibir {
         width: 55px;
         height: 40px;
-        padding-left: 10px;
+        padding-left: 70px;
     }
     
     .sponsor img {
@@ -274,14 +300,48 @@ footer {
         align-items: center;
     }
 
-    .sostav {
+    .sostav_form {
         display: none;
     }
-
-    .form {
-        display: none;
+    
+    .menu-small {
+        background-color: #559DD5;
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+        padding: 0;
+        position: fixed;
+        /* background: white; */
+        transform: translateX(-100%);
     }
 
+    .menu_small_item {
+        font-size: 30px;
+        margin: 5px;
+        height: 2em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .menu_small_item:first-child {
+        padding-top: calc(50px + 4em);
+    }
+
+    .menu_small_icon {
+        position: fixed;
+        padding-left: 2%;
+        top: 0.5em;
+        left: 0.1em;
+        width: 50px;
+        height: 50px;
+        display: flex;
+        z-index: 1;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+    }
 
 
 
