@@ -1,0 +1,491 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+* {
+    margin: 0;
+}
+
+body {
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* header */
+.header_logo {
+    background-color: #22385B;
+    display: flex;
+}
+
+.sponsor{
+    display: flex;
+    margin: 20px;
+    justify-content: space-evenly;
+    width: 1170px;
+}
+
+.sponsor img {
+    width: 200px;
+}
+
+.logo_sibir {
+    padding-left: 20px;
+}
+
+.homepage {
+    color: white;
+    font-size: 1.5em;
+}
+
+.form {
+    color: white;
+    font-size: 1.5em;
+}
+
+.homepage_form {
+    margin-left: 10%;
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.menu_small_icon {
+    display: none;
+}
+
+.menu-small {
+    display: none;
+    height: 2em;
+}
+
+.menu_small_item {
+    display: none;
+}
+
+.stick {
+    width: 80%;
+    height: 5px;
+    background: black;
+}
+/* header */
+
+
+/* 2560px */
+
+
+/* sostav */
+.sostav_block {
+    background-color: #3c5f97;
+    height: 1100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.title {
+    font-size: 50px;
+    /* margin-left: 50%; */
+}
+
+.title_block {
+    display: flex;
+    justify-content: center;
+}
+
+.sostav_sibir {
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.goalkeeper_trainer {
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.goalkeeper {
+    background-color: white;
+    width: 30%;
+    /* height: 300px; */
+    margin-left: 16%;
+}
+
+.trainer {
+    background-color: white;
+    width: 30%;
+    /* height: 300px; */
+    margin-right: 16%;
+}
+
+.s1-3_links {
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.s1_link {
+    background-color: white;
+    width: 30%;
+    /* height: 300px; */
+}
+
+.s2_link {
+    background-color: white;
+    width: 30%;
+    /* height: 300px; */
+}
+
+.s3_link {
+    background-color: white;
+    width: 30%;
+    /* height: 300px; */
+}
+
+.s4-5_links {
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.s4_link {
+    background-color: white;
+    width: 30%;
+    /* height: 300px; */
+    margin-left: 16%;
+}
+
+.s5_link {
+    background-color: white;
+    width: 30%;
+    /* height: 300px; */
+    margin-right: 16%;
+}
+
+.sostav_sibir h1 {
+    font-size: 50px;
+    text-align: center;
+}
+
+.sostav_sibir p {
+    font-size: 30px;
+    margin: 2px;
+}
+
+.link_block {
+    margin-top: 4%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#border_radius {
+    border-radius: 30px;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-evenly; */
+}
+/* sostav */
+
+
+
+
+
+/* photo */
+.photo {
+    background-color: #559DD5;
+}
+
+.photo_sostav {
+    width: 90%;
+    height: 100%;
+    margin: 5%;
+}
+/* photo */
+
+
+
+
+
+/* footer */
+footer {
+    background-color: #22385B;
+
+}
+
+.footer {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.footer_text {
+    max-width: 650px;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer_contacts {
+    width: 650px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.footer_rights {
+    padding: 20px;
+    color: #AAAAAA;
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+/* footer */
+
+
+
+
+
+@media (max-width: 425px) {
+    .logo_sibir {
+        width: 55px;
+        height: 40px;
+        padding-left: 70px;
+    }
+    
+    .sponsor img {
+        width: 70px;
+
+    }
+
+    .sponsor {
+        align-items: center;
+        width: 340px;
+    }
+
+    .header_logo {
+        align-items: center;
+    }
+
+    .homepage_form {
+        display: none;
+    }
+
+    .menu-small {
+        background-color: #559DD5;
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+        padding: 0;
+        position: fixed;
+        /* background: white; */
+        transform: translateX(-100%);
+    }
+
+    .menu_small_item {
+        font-size: 20px;
+        margin: 5px;
+        height: 2em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .menu_small_item:first-child {
+        padding-top: calc(50px + 4em);
+    }
+
+    .menu_small_icon {
+        position: fixed;
+        padding-left: 2%;
+        top: 0.5em;
+        left: 0.1em;
+        width: 50px;
+        height: 50px;
+        display: flex;
+        z-index: 1;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+    }
+
+
+
+
+
+    .sostav_block {
+        background-color: #005697;
+        height: 550px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .title {
+        font-size: 50px;
+        /* margin-left: 50%; */
+    }
+
+    .title_block {
+        display: flex;
+        justify-content: center;
+    }
+
+    .sostav_sibir {
+        height: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .goalkeeper_trainer {
+        height: 24%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .goalkeeper {
+        background-color: white;
+        width: 30%;
+        /* height: 300px; */
+        margin-left: 16%;
+    }
+
+    .trainer {
+        background-color: white;
+        width: 30%;
+        /* height: 300px; */
+        margin-right: 16%;
+    }
+
+    .s1-3_links {
+        height: 29%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .s1_link {
+        background-color: white;
+        width: 30%;
+        /* height: 300px; */
+    }
+
+    .s2_link {
+        background-color: white;
+        width: 30%;
+        /* height: 300px; */
+    }
+
+    .s3_link {
+        background-color: white;
+        width: 30%;
+        /* height: 300px; */
+    }
+
+    .s4-5_links {
+        height: 29%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .s4_link {
+        background-color: white;
+        width: 30%;
+        /* height: 300px; */
+        margin-left: 16%;
+    }
+
+    .s5_link {
+        background-color: white;
+        width: 30%;
+        /* height: 300px; */
+        margin-right: 16%;
+    }
+
+    .sostav_sibir h1 {
+        font-size: 21px;
+        text-align: center;
+    }
+
+    .sostav_sibir p {
+        font-size: 10px;
+        margin: 2px;
+    }
+
+    .link_block {
+        margin-top: 4%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #border_radius {
+        border-radius: 20px;
+        /* display: flex;
+        flex-direction: column;
+        justify-content: space-evenly; */
+    }
+
+
+
+
+
+    .footer {
+        height: 50px;
+        padding-top: 10px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .footer_text {
+        max-width: 150px;
+        height: 26px;
+        font-size: 9px;
+        color: white;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer_contacts {
+        width: 150px;
+        height: 30px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .footer_rights {
+        font-size: 10px;
+        padding: 10px;
+        color: #AAAAAA;
+        flex-direction: row;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+    }
+
+    .footer_contacts img {
+        width: 30px;
+        height: 30px;
+    }
+}
