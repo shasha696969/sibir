@@ -4,11 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style_form.css">
-    <title>Document</title>
+    <title>Форма</title>
 </head>
 <body>
     <header>
+        <div class="container_menu">
+            <div class="menu-small">
+                <a href="index.html" class="menu_small_item">ГЛАВНАЯ СТРАНИЦА</a>
+                <a href="sostav.html" class="menu_small_item">СОСТАВ</a>
+            </div>
+        </div>
         <div class="header_logo">
+            <div class="menu_small_icon">
+                <div class="stick"></div>
+                <div class="stick"></div>
+                <div class="stick"></div>
+            </div>
             <img src="image/logo.svg" class="logo_sibir">
             <div class="sponsor">
                 <img src="image/logosogaz.svg">
@@ -16,22 +27,46 @@
                 <img src="image/logoveka.svg">
                 <img src="image/logowinline.svg">
             </div>
-            <a href="sostav.html" class="sostav">СОСТАВ</a>
-            <a href="index.html" class="sostav">ГЛАВНАЯ СТРАНИЦА</a>
+            <div class="sostav_homepage">
+                <a href="index.html" class="homepage">ГЛАВНАЯ СТРАНИЦА</a>
+                <a href="sostav.html" class="sostav">СОСТАВ</a>
+            </div>
         </div>
     </header>
+
+
     <div class="form2">
         <div class="title">
-            <h1><b>ЗАПОЛНИТЕ ФОРМУ</b></h1>
+            <h1>ЗАПОЛНИТЕ ФОРМУ</h1>
         </div>
-        <form >
+        <form>
             <input class="input" name="login" type="text" placeholder="введите логин">
             <input class="input2" name="password" type="password" placeholder="введите пароль">
             <button class="btn" name="button" type="button">войти</button>
         </form>
     </div>
+    
+    
+    <footer>
+        <div class="footer">
+            <div class="footer_text">
+                <p>"сибирь" это российский хоккейный клуб из Новосибирска.</p>
+            </div>
+            <div class="footer_contacts">
+                <img src="image/contacts1.svg">
+                <img src="image/contacts4.svg">
+                <img src="image/contacts5.svg">
+                <img src="image/contacts6.svg">
+            </div>
+        </div>
+        <div class="footer_rights">
+            <p>2026 Sibir. All Rights reserved.</p>
+        </div>
+    </footer>
 
-<script src="script.js"></script>
+    <script src="anime.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="form.js"></script>
 
 </body>
 </html>
