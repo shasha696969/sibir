@@ -114,3 +114,15 @@ function rotate_stick2(){
     });
     condition = true;
 };
+
+
+
+$(document).ready(function () {
+    $('.slider').bxSlider({
+        pagerCustom: '.slider-nav',
+        adaptiveHeight: true,
+        infiniteLoop: false,
+        hideControlOnEnd: true,
+        slideWidth: 700
+    });
+});
