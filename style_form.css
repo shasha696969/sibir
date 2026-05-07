@@ -7,6 +7,10 @@
     /* outline: 2px solid red !important; */
 }
 
+body.lock {
+    overflow: hidden;
+}
+
 body {
     display: flex;
     flex-direction: column;
@@ -190,7 +194,7 @@ footer {
     }
     
     .sponsor img {
-        width: 70px;
+        width: 50px;
 
     }
 
@@ -217,6 +221,7 @@ footer {
         position: fixed;
         /* background: white; */
         transform: translateX(-100%);
+        z-index: 9998;
     }
 
     .menu_small_item {
@@ -226,6 +231,7 @@ footer {
         display: flex;
         justify-content: center;
         align-items: center;
+        z-index: 9999;
     }
 
     .menu_small_item:first-child {
@@ -244,6 +250,7 @@ footer {
         justify-content: space-around;
         align-items: center;
         flex-direction: column;
+        z-index: 9999;
     }
 
 
